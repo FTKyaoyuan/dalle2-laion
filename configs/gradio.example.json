@@ -9,6 +9,13 @@
                     "path": "https://huggingface.co/laion/DALLE2-PyTorch/resolve/main/decoder/v1.0.2/latest.pth",
                     "cache_dir": "./models",
                     "filename_override": "new_decoder.pth"
+                },
+                "load_config_from": {
+                    "load_type": "url",
+                    "path": "https://huggingface.co/laion/DALLE2-PyTorch/resolve/main/decoder/v1.0.2/decoder_config.json",
+                    "checksum_file_path": "https://huggingface.co/laion/DALLE2-PyTorch/resolve/main/decoder/v1.0.2/decoder_config.json",
+                    "cache_dir": "./models",
+                    "filename_override": "new_decoder_config.json"
                 }
             },
             {
